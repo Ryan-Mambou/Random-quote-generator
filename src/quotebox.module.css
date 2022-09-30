@@ -1,0 +1,40 @@
+.quotebox{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    width: clamp(30%, 400px, 90%);
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease background-color;
+    margin-top: 5px;
+
+}
+.icons {
+    font-size: 40px;
+    transition: 1s ease color;
+    display: flex;
+}
+
+
+p {
+    transition: 1s ease color;
+}
